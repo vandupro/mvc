@@ -6,7 +6,7 @@ class Controller {
     }
 
     public function view($view, $data=[]){
-        require_once "./mvc/views/".$view.".php";
+        require_once "./mvc/views/backend/".$view.".php";
     }
 }
 ?>
